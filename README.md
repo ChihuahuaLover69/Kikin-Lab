@@ -5,6 +5,9 @@ Plantilla base del curso de Minería de Datos
 **Kikin Lab**
 **ENES Morelia, UNAM**
 
+Nombre: Enrique Luviano
+email: kikeluviano1810@gmail
+
 ## Sobre el proyecto
 
 ## Reglas del desarrollo
