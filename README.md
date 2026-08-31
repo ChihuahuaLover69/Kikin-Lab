@@ -1,13 +1,11 @@
-# mintic-base
+# Kikin-Lab
 
 Plantilla base del curso de Minería de Datos
 
-**Pineda Lab**
+**Kikin Lab**
 **ENES Morelia, UNAM**
 
 ## Sobre el proyecto
-
-`mintic-base` es el repositorio plantilla sobre el que cada alumno construirá su propia librería de Minería de Datos. El objetivo es comprender el funcionamiento interno de los algoritmos, no únicamente usarlos.
 
 ## Reglas del desarrollo
 
@@ -41,30 +39,3 @@ Plantilla base del curso de Minería de Datos
     └── pca/
         └── __init__.py
 ```
-
-Cada subcarpeta dentro de `mintic/` es un subpaquete de Python correspondiente a un reto del curso. El alumno desarrolla su implementación dentro del subpaquete que le sea asignado.
-
-## Clonar el repositorio
-
-Este es un repositorio privado. Para clonarlo, solicita acceso al equipo del curso y luego ejecuta:
-
-```bash
-git clone https://github.com/Pineda-Lab/mintic-base.git
-cd mintic-base
-```
-
-## Instalación
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-## Ejecución
-
-```bash
-python main.py
-```
-
-`main.py` carga el dataset de prueba en `data/sample_dataset.csv` y sirve como punto de partida para importar y probar el subpaquete que estés desarrollando.
